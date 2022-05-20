@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @layer components {
+    .btn-blue {
+        @apply py-2 px-4 bg-green-500 text-white font-semibold rounded-lg shadow-none;
+    }
+} */
+
+
+@layer utilities {
+    .py-21 {
+        padding: 10.05rem;
+    }
+
+    @variants hover, focus {
+        .py-21 {
+            padding: 10.05rem;
+        }
+    }
+}
